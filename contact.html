@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+<head>
+
+ <meta charset="UTF-8">
+ 
+   
+  
+
+<title>Login</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+
+
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+</style>
+
+</head>
+
+<body class="header">
+
+
+<div class="header" style="margin:0px 120px"> 
+    
+  <div class="container-fluid">
+      
+  <img src="coffee2.png" alt="Coffee logo" class="coffee-logo">
+     .<br>  
+ <h4>Amazing People.Amazing Coffee.</h4>
+    
+<h5 style="color:red">Want to hear coffee news from us?</h5>
+<input type="text" placeholder="Your e-mail address"name="user">
+<br><button><a class="nav-link text-white" href="subscribe.html">Subscribe</a></button>
+   
+  </div>    
+  
+  </div>
+
+
+      
+<header>   
+ <nav class="navbar navbar-expand-sm navbar-light bg-none fixed-top">
+    
+  <a class="navbar-brand text-white" href="#" >Amazing Coffee</a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+  <ul class="navbar-nav mr-auto">
+     
+     <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+  
+<li class="nav-item">
+            <a class="nav-link text-white" href="our coffee.html">About</a>
+          </li>
+ 
+<li class="nav-item">
+            <a class="nav-link text-white" href="month club.html">Club</a>
+          </li>
+    
+   <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+   
+ 
+     </ul>
+     
+ </div>
+    
+</nav>   
+   
+</header>
+  
+
+<center>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<h4 style="color:white">Follow Us On</h4>
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+
+<form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" >  
+<h6 style="color:white">Name : <input type="text" placeholder="Enter Username" name="name"><br/>  
+Password: <input type="password" placeholder="Enter Password" name="password"><br/> 
+Message : <input type="text" placeholder="Your Message" name="name"><br/>   </h6>
+<input type="submit" value="Send Message">  
+</form>  
+
+
+
+<br>
+<br>
+<h4 style="color:white">Get in touch ! we'd love to hear from you.</h4>
+
+<a target="_blank" href="https://media3.giphy.com/media/687qS11pXwjCM/giphy.gif" align=right>
+  <img src="https://media3.giphy.com/media/687qS11pXwjCM/giphy.gif" alt="Thumbnail" style="width:150px">
+</a>
+</center>
+
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }    
+}  
+
+
+
+
+</body>
+</html> 

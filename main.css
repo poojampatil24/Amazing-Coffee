@@ -1,0 +1,232 @@
+body {
+   
+ font-family: "Montserrat";
+
+}
+
+
+/******** Navbar ********/
+
+.navbar 
+{
+    
+     margin: 0 10%;
+   
+     height: 7%;
+
+}
+
+
+.navbar-brand {
+   
+     color: white;
+  
+     font-size:25px;
+     text-decoration:underline;  
+     margin-top: 50px;
+
+}
+
+
+.navbar-nav {
+    
+         margin-left: 80%;
+    
+         margin-top: 50px;
+
+}
+
+
+.nav-item {
+    
+          margin-right: 5%;
+
+}
+
+
+/******** Header ********/
+
+.header {
+   
+       background:linear-gradient(rgba(8, 8, 8, 0.945),rgba(3, 3, 3, 0.267)),
+    url(coffee.jpeg) no-repeat;
+    
+       background-size: cover;
+    
+       background-position: center;
+    
+       background-attachment: fixed;
+    
+      display: flex;
+
+      
+}
+
+
+
+
+
+.container-fluid {
+    
+      display: flex;
+    
+      justify-content: center;
+    
+    flex-direction: column;
+    
+     align-items: center;
+
+}
+
+
+.coffee-logo {
+    
+      max-width: 45%;
+
+}
+
+
+.container-fluid h4 {
+    
+       color: #fff;
+    
+       font-weight: 300;
+    
+       text-transform: capitalize;
+    
+       letter-spacing: 1px;
+    
+       margin-top: -15px;
+
+}
+
+
+/******** Menu ********/
+.menu {
+    
+          height: 75vh;
+    
+          display: flex;
+    
+          flex-direction: column;
+    
+          justify-content: center;
+
+}
+
+
+.menu h2 {
+    
+         font-weight: 400;
+
+}
+
+
+.menu h5 {
+    
+        text-align: center;
+
+}
+
+
+.menu-card {
+    
+         display: flex;
+    
+         flex-direction: column;
+    
+         align-content: center;
+    
+         align-items: center;
+    
+          margin: 1rem 0;
+
+}
+
+
+.menu img {
+     
+           height: 10rem;
+    
+           opacity: .85;
+
+}
+
+
+
+
+.head {
+   
+       background:linear-gradient(rgba(8, 8, 8, 0.945),rgba(3, 3, 3, 0.267)),
+    url(coffee.jpeg) no-repeat;
+    
+       background-size: cover;
+    
+       background-position: center;
+    
+       background-attachment: fixed;
+    
+      display: flex;
+
+      
+}
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+button{
+    background: #e2c800;
+    font-family: lato;
+    font-weight: 700;
+    color: #ffffff;
+    -webkit-appearance: none;
+    padding: 0 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
